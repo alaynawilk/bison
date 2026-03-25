@@ -1,12 +1,24 @@
+// responsive fullscreen source: https://editor.p5js.org/lf/sketches/Sy5vDEXnW
+// variables for auto width/height
+var w = window.innerWidth;
+var h = window.innerHeight;
+
 function setup() {
-  createCanvas(400, 400);
+  canvas = createCanvas(w, h);
 }
 
 function draw() {
-  background('#303030');
-  fill('white');
-  textSize(36)
-  textAlign(CENTER, CENTER);
-  text('How much did IU spend', 200, 100);
-  text('to bring back the bison?', 200, 145);
+  background("#c4161c");
+  // A rectangle
+  fill("#303030");
+  noStroke();
+  rect(20, 20, w - 40, h - 40);
+  // uses global variables for width and height
 }
+
+window.onresize = function () {
+  // assigns new values for width and height variables
+  w = window.innerWidth;
+  h = window.innerHeight;
+  canvas.size(w, h);
+};
