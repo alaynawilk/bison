@@ -38,7 +38,9 @@
   font-style: italic;
 }
 
-/* * * * * * * * * * * * * * */
+/* * * * * * * *
+GENERAL
+* * * * * * */
 
 html,
 body {
@@ -69,6 +71,12 @@ h2 {
   font-size: 32px;
 }
 
+h3 {
+  color: lightgray;
+  text-align: center;
+  font-size: 24px;
+}
+
 .button {
   background-color: #cc0000;
   border: none;
@@ -79,6 +87,9 @@ h2 {
   transition: 2s 1s;
   cursor: pointer;
   text-decoration: none;
+  display: flex;
+  justify-self: center;
+
 }
 
 .button a {
@@ -86,10 +97,10 @@ h2 {
   color: white;
 }
 
-.headline {
+.body-copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+  margin: 10rem 10rem 2rem 10rem;
 }
