@@ -8,7 +8,6 @@ body {
 GENERAL
 * * * * * * */
 
-
 body {
   margin-top: 10rem;
   margin-left: 17rem;
@@ -46,9 +45,9 @@ h3 {
 }
 
 p {
-    color: white;
-    margin-left: 15rem;
-    margin-right: 15rem;
+  color: white;
+  margin-left: 15rem;
+  margin-right: 15rem;
 }
 
 .button {

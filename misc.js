@@ -3,16 +3,16 @@
 function setup() {
   createCanvas(1900, 700);
   background("#1c1c1c");
-  misc = loadImage("/images/misc-290.png");
-  misc2 = loadImage("/images/misc-670.png");
-  misc3 = loadImage("/images/misc-1300.png");
-  misc4 = loadImage("/images/misc-89000.png");
-  misc5 = loadImage("/images/misc-111109.png");
-  total = loadImage("/images/misc-total.png");
-  blank = loadImage("/images/parachute.png");
+  misc = loadImage("images/misc-290.png");
+  misc2 = loadImage("images/misc-670.png");
+  misc3 = loadImage("images/misc-1300.png");
+  misc4 = loadImage("images/misc-89000.png");
+  misc5 = loadImage("images/misc-111109.png");
+  total = loadImage("images/misc-total.png");
+  blank = loadImage("images/parachute.png");
 
   // button source: GUI: image as button by emmajaneculhane
-  button = createImg("/images/next.png", "Next");
+  button = createImg("images/next.png", "Next");
   button.position(1600, 600);
   button.mousePressed(goToNext);
 }
@@ -32,5 +32,5 @@ function draw() {
 }
 
 function goToNext() {
-  window.location.href = "/total/total.html";
+  window.location.href = "total.html";
 }

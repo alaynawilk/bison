@@ -3,15 +3,15 @@
 function setup() {
   createCanvas(1900, 700);
   background("#1c1c1c");
-  design = loadImage("/images/design-2700.png");
-  design2 = loadImage("/images/design-3800.png");
-  design3 = loadImage("/images/design-total.png");
-  design4 = loadImage("/images/design-9000.png");
-  design5 = loadImage("/images/design-14200.png");
-  blank = loadImage("/images/bison-line.png");
+  design = loadImage("images/design-2700.png");
+  design2 = loadImage("images/design-3800.png");
+  design3 = loadImage("images/design-total.png");
+  design4 = loadImage("images/design-9000.png");
+  design5 = loadImage("images/design-14200.png");
+  blank = loadImage("images/bison-line.png");
 
   // button source: GUI: image as button by emmajaneculhane
-  button = createImg("/images/next.png", "Next");
+  button = createImg("images/next.png", "Next");
   button.position(1500, 600);
   button.mousePressed(goToNext);
 }
@@ -30,5 +30,5 @@ function draw() {
 }
 
 function goToNext() {
-  window.location.href = "/intro/page3.html";
+  window.location.href = "page3.html";
 }
