@@ -12,9 +12,9 @@ function setup() {
   button2.position(750, 420);
   button2.mousePressed(goToMerch);
 
-  button3 = createImg("images/parachute.png", "Costume");
+  button3 = createImg("images/parachute.png", "Misc");
   button3.position(1300, 400);
-  button3.mousePressed(goToCostume);
+  button3.mousePressed(goToMisc);
 }
 
 function goToDesign() {
@@ -25,6 +25,6 @@ function goToMerch() {
   window.location.href = "merch.html";
 }
 
-function goToCostume() {
+function goToMisc() {
   window.location.href = "misc.html";
 }
