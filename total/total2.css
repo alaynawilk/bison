@@ -1,50 +1,25 @@
-/* typography */
-
-.inter-<uniquifier > {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.playfair-display-<uniquifier > {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.pt-serif-regular {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.pt-serif-bold {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.pt-serif-regular-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.pt-serif-bold-italic {
-  font-family: "PT Serif", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
 /* * * * * * * *
 GENERAL
 * * * * * * */
 
+/* typography */
+h1,
+h2,
+h3,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+}
+
+/* content */
+
+.number {
+    justify-self: center;
+}
+
 html,
 body {
-  margin: 0;
+  margin-top: 5rem;
   padding: 0;
 }
 
@@ -77,30 +52,25 @@ h3 {
   font-size: 24px;
 }
 
-.button {
-  background-color: #cc0000;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 1%;
-  color: white;
-  font-size: 18px;
-  transition: 2s 1s;
-  cursor: pointer;
-  text-decoration: none;
-  display: flex;
-  justify-self: center;
-
-}
-
-.button a {
-  text-decoration: none;
-  color: white;
-}
-
 .body-copy {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10rem 10rem 2rem 10rem;
+}
+
+.button {
+  border-radius: 1%;
+  font-size: 18px;
+  transition: 2s 1s;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-self: center;
+}
+
+.button a {
+  text-decoration: none;
+  background-color: none;
 }

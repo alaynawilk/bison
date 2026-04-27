@@ -1,0 +1,11 @@
+/* background */
+body {
+  background-color: #1c1c1c;
+  background-image: url("/images/design.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.canvas {
+  margin-top: 270px;
+}
