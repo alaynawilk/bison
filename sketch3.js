@@ -18,13 +18,13 @@ function setup() {
 }
 
 function goToDesign() {
-  window.location.href = "/design/design.html";
+  window.location.href = "design.html";
 }
 
 function goToMerch() {
-  window.location.href = "/merch/merch.html";
+  window.location.href = "merch.html";
 }
 
 function goToCostume() {
-  window.location.href = "/misc./misc.html";
+  window.location.href = "misc.html";
 }
